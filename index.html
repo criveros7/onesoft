@@ -12,7 +12,7 @@
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
 	<meta property="og:site_name" content="onesoft.cl" /> <!-- website name -->
 	<meta property="og:site" content="https://onesoft.cl/" /> <!-- website link -->
-	<meta property="og:title" content=onesoft""/> <!-- title shown in the actual shared post -->
+	<meta property="og:title" content="onesoft"/> <!-- title shown in the actual shared post -->
 	<meta property="og:description" content="OneSoft es una empresa dedicada al desarrollo de sitios web y sistemas complejos" /> <!-- description shown in the actual shared post -->
 	<meta property="og:image" content="https://onesoft.cl/images/logo.png" /> <!-- image link, make sure it's jpg -->
 	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
@@ -23,6 +23,7 @@
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
@@ -194,7 +195,7 @@
                             </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
-                                <div class="media-body">Próximamente Registro de test (KATZ, BARTHEL, PFEFFER)</div>
+                                <div class="media-body">Registro de Indices y cuestionarios (KATZ, BARTHEL, PFEFFER)</div>
                             </li>
                         </ul>
                     </div> <!-- end of text-container -->
@@ -230,7 +231,7 @@
                             <div class="divider"></div>
                             <ul class="list-unstyled li-space-lg">
                                 <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body">Registro de Usuarios Ilimitados</div>
+                                    <i class="fas fa-check"></i><div class="media-body">Registro de Usuarios</div>
                                 </li>
                                 <li class="media">
                                     <i class="fas fa-check"></i><div class="media-body">Creación de Registro Residente</div>
@@ -249,7 +250,7 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="mailto:info@OneSoft.cl">Contratar</a>                                
+                                <a class="btn-solid-reg page-scroll" href="mailto:info@onesoft.cl">Contratar</a>                                
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -264,7 +265,7 @@
                             <div class="divider"></div>
                             <ul class="list-unstyled li-space-lg">
                                 <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body">Registro de Usuarios Ilimitados</div>
+                                    <i class="fas fa-check"></i><div class="media-body">Registro de Usuarios </div>
                                 </li>
                                 <li class="media">
                                     <i class="fas fa-check"></i><div class="media-body">Creación de Registro Residente</div>
@@ -283,7 +284,7 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="mailto:info@OneSoft.cl">Contratar</a>
+                                <a class="btn-solid-reg page-scroll" href="mailto:info@onesoft.cl">Contratar</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
@@ -301,7 +302,7 @@
                             <div class="divider"></div>
                             <ul class="list-unstyled li-space-lg">
                                 <li class="media">
-                                    <i class="fas fa-check"></i><div class="media-body">Registro de Usuarios Ilimitados</div>
+                                    <i class="fas fa-check"></i><div class="media-body">Registro de Usuarios </div>
                                 </li>
                                 <li class="media">
                                     <i class="fas fa-check"></i><div class="media-body">Creación de Registro Residente</div>
@@ -320,12 +321,12 @@
                                 </li>
                             </ul>
                             <div class="button-wrapper">
-                                <a class="btn-solid-reg page-scroll" href="mailto:info@OneSoft.cl">Contratar</a>
+                                <a class="btn-solid-reg page-scroll" href="mailto:info@onesoft.cl">Contratar</a>
                             </div>
                         </div>
                     </div> <!-- end of card -->
                     <!-- end of card -->
-
+                    <div class="m-auto">* El valor varía dependiendo de la capacidad de su ELEAM</div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -391,7 +392,67 @@
                             </li>
                             <li class="media">
                                 <i class="fas fa-square"></i>
-                                <div class="media-body">Términos y condiciones </div>
+                                <div class="media-body" data-bs-target="#condicionesModal" data-bs-toggle="modal"><a data-bs-target="#condicionesModal" data-bs-toggle="modal" href="" class="text-white text-decoration-none">Términos y condiciones </a></div>
+                                <div class="modal fade" id="condicionesModal" aria-hidden="true" aria-labelledby="condicionesModalLabel" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Términos y condiciones</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body mx-3">
+                                                <h3>TÉRMINOS Y CONDICIONES DE USO DEL SITIO WEB Y DE LA PLATAFORMA</h3>
+                                                <p><strong>Fecha de última actualización:</strong> [●]</p>
+
+                                                <h4>1. ACEPTACIÓN DE LOS TÉRMINOS</h4>
+                                                <p>El acceso y uso del sitio web de <strong>ONESOFT SOLUCIONES SpA</strong>, en adelante “<strong>ONESOFT</strong>”, así como del sistema informático asociado a su plataforma de gestión para Establecimientos de Larga Estadía para Adultos Mayores (ELEAM), implica la aceptación expresa, plena y sin reservas de todos los términos y condiciones que a continuación se indican. En caso de no estar de acuerdo con lo aquí dispuesto, el usuario deberá abstenerse de utilizar el sitio o contratar los servicios.</p>
+                                                <h4>2. OBJETO</h4>
+                                                <p>El presente instrumento regula los términos bajo los cuales los usuarios pueden acceder al sitio web y utilizar la plataforma tecnológica proporcionada por ONESOFT, cuyo objeto es facilitar la gestión de ELEAM mediante herramientas digitales que incluyen, entre otras funcionalidades, el registro de residentes, funcionarios, visitas médicas y evaluaciones clínicas (índices de Katz, Pfeiffer, Barthel).</p>
+
+                                                <h4>3. ACCESO Y USO DEL SERVICIO</h4>
+                                                <p>3.1. El acceso a la plataforma estará disponible únicamente para usuarios debidamente registrados mediante credenciales individuales e intransferibles, asignadas por ONESOFT o por el administrador designado por el cliente.</p>
+                                                <p>3.2. Cada usuario será responsable de la confidencialidad, resguardo y correcto uso de su contraseña y cuenta. ONESOFT no será responsable por accesos no autorizados resultantes de la negligencia o uso indebido por parte del usuario.</p>
+
+                                                <h4>4. LICENCIA DE USO</h4>
+                                                <p>ONESOFT concede a los usuarios una <strong>licencia de uso no exclusiva, intransferible, revocable y limitada</strong> para utilizar la plataforma en conformidad con los fines previstos, mientras se mantenga vigente una suscripción activa y al día en sus pagos.</p>
+
+                                                <h4>5. PROPIEDAD INTELECTUAL</h4>
+                                                <p>Todos los derechos de propiedad intelectual e industrial relacionados con la plataforma, su diseño, estructura, código fuente, funcionalidades, documentación técnica y contenido, son de titularidad exclusiva de ONESOFT SOLUCIONES SpA. Ningún aspecto del sistema podrá ser reproducido, distribuido, modificado o utilizado con fines distintos a los pactados, sin autorización expresa y por escrito del titular.</p>
+
+                                                <h4>6. PLANES COMERCIALES Y FORMA DE PAGO</h4>
+                                                <p>6.1. La plataforma contempla los siguientes planes de suscripción:</p>
+                                                <ul>
+                                                    <li><strong>Prueba gratuita:</strong> 7 días corridos desde la activación, sin costo.</li>
+                                                    <li><strong>Plan mensual:</strong> 12,50 UF por mes, con facturación anticipada.</li>
+                                                    <li><strong>Plan anual:</strong> 10,50 UF mensuales, facturados de forma anticipada por un total de 126 UF.</li>
+                                                </ul>
+                                                <p><strong>Nota:</strong> Los valores indicados pueden variar en función de la cantidad de residentes registrados en el establecimiento. ONESOFT se reserva el derecho de ajustar las tarifas según la escala de uso del servicio.</p>
+                                                <p>6.2. Los pagos deberán efectuarse mediante transferencia bancaria u otro medio autorizado por ONESOFT. La falta de pago facultará a ONESOFT para suspender el acceso a la plataforma sin previo aviso.</p>
+
+                                                <h4>7. VIGENCIA Y TERMINACIÓN</h4>
+                                                <p>El contrato de servicios derivados del uso de la plataforma tendrá vigencia indefinida, renovándose de forma automática de forma mensual o anual, según el plan contratado. Cualquiera de las partes podrá poner término al contrato con un aviso previo mínimo de 15 días corridos, mediante notificación por escrito.</p>
+
+                                                <h4>8. SOPORTE Y MANTENIMIENTO</h4>
+                                                <p>ONESOFT proporcionará soporte técnico y mantenimiento correctivo mientras se mantenga vigente el servicio y el usuario se encuentre al día en sus obligaciones contractuales. Las consultas serán atendidas en días hábiles, entre las 09:00 y las 17:00 horas, mediante el canal oficial: <a href="mailto:soporte@onesoft.cl">soporte@onesoft.cl</a>.</p>
+
+                                                <h4>9. CONFIDENCIALIDAD</h4>
+                                                <p>El usuario se obliga a mantener estricta confidencialidad sobre la información a la que acceda mediante la plataforma, incluyendo datos personales de terceros. Las credenciales de acceso son personales e intransferibles, y su divulgación o uso indebido constituye una infracción contractual grave.</p>
+
+                                                <h4>10. LIMITACIÓN DE RESPONSABILIDAD</h4>
+                                                <p>ONESOFT no será responsable por errores en la operación del sistema derivados de mal uso por parte del usuario, interrupciones causadas por terceros, casos fortuitos, fuerza mayor o fallas técnicas ajenas a su control razonable.</p>
+
+                                                <h4>11. MODIFICACIONES</h4>
+                                                <p>ONESOFT podrá modificar en cualquier momento estos Términos y Condiciones, notificándolo mediante su publicación en el sitio web. El uso continuado del servicio después de la modificación implica la aceptación de los nuevos términos.</p>
+
+                                                <h4>12. LEGISLACIÓN APLICABLE Y JURISDICCIÓN</h4>
+                                                <p>Este documento se regirá por las leyes de la República de Chile. Para todos los efectos legales, las partes fijan su domicilio en la comuna de <strong>Melipilla, Región Metropolitana</strong>, y se someten a la jurisdicción de sus tribunales ordinarios de justicia.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>                                      
+                                        </div>
+                                    </div>
+                                </div>                                
                             </li>
                         </ul>
                     </div>
@@ -412,7 +473,7 @@
                             </li>
                             <li class="media">
                                 <i class="fas fa-envelope"></i>
-                                <div class="media-body"><a class="white" href="mailto:info@OneSoft.cl">info@OneSoft.cl</a> </div>
+                                <div class="media-body"><a class="white text-decoration-none" href="mailto:info@OneSoft.cl">info@onesoft.cl</a> </div>
                             </li>
                         </ul>
                     </div> 
@@ -445,5 +506,6 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
